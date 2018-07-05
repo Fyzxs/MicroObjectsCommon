@@ -1,0 +1,6 @@
+[submodule "submodules/FluentTypes"]
+	path = submodules/FluentTypes
+	url = git@github.com:Fyzxs/FluentTypes.git
+[submodule "submodules/IMock"]
+	path = submodules/IMock
+	url = git@github.com:Fyzxs/IMock.git

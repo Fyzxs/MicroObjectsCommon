@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroObjectsLib", "MicroObjectsLib\MicroObjectsLib.csproj", "{5F2DE681-637E-4B3C-B34E-C963A429A8A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentTypes", "..\..\submodules\FluentTypes\src\csharp\FluentTypes\FluentTypes.csproj", "{5512DEDF-2B27-4B0F-85AE-18E1DD63A2A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentTypesTests", "..\..\submodules\FluentTypes\src\csharp\FluentTypesTests\FluentTypesTests.csproj", "{C00D40B2-CB8B-4DB9-8806-BDA67ADAEBEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroObjectsLibTests", "MicroObjectsLibTests\MicroObjectsLibTests.csproj", "{747CFEA7-89F1-4520-8601-95DA3F4E23CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceMocks", "..\..\submodules\IMock\src\csharp\InterfaceMocks\InterfaceMocks.csproj", "{6FCA23C2-FCA0-45FE-A326-AEE4FE47149F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceMocksTests", "..\..\submodules\IMock\src\csharp\InterfaceMocksTests\InterfaceMocksTests.csproj", "{B9B981DD-B69C-49E3-B035-B63BFC6232CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F2DE681-637E-4B3C-B34E-C963A429A8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2DE681-637E-4B3C-B34E-C963A429A8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2DE681-637E-4B3C-B34E-C963A429A8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2DE681-637E-4B3C-B34E-C963A429A8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5512DEDF-2B27-4B0F-85AE-18E1DD63A2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5512DEDF-2B27-4B0F-85AE-18E1DD63A2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5512DEDF-2B27-4B0F-85AE-18E1DD63A2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5512DEDF-2B27-4B0F-85AE-18E1DD63A2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00D40B2-CB8B-4DB9-8806-BDA67ADAEBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00D40B2-CB8B-4DB9-8806-BDA67ADAEBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00D40B2-CB8B-4DB9-8806-BDA67ADAEBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00D40B2-CB8B-4DB9-8806-BDA67ADAEBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747CFEA7-89F1-4520-8601-95DA3F4E23CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747CFEA7-89F1-4520-8601-95DA3F4E23CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747CFEA7-89F1-4520-8601-95DA3F4E23CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747CFEA7-89F1-4520-8601-95DA3F4E23CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCA23C2-FCA0-45FE-A326-AEE4FE47149F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCA23C2-FCA0-45FE-A326-AEE4FE47149F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCA23C2-FCA0-45FE-A326-AEE4FE47149F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCA23C2-FCA0-45FE-A326-AEE4FE47149F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B981DD-B69C-49E3-B035-B63BFC6232CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B981DD-B69C-49E3-B035-B63BFC6232CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B981DD-B69C-49E3-B035-B63BFC6232CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B981DD-B69C-49E3-B035-B63BFC6232CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B1A03CF-025B-47DB-81A8-212E2A93C055}
+	EndGlobalSection
+EndGlobal
